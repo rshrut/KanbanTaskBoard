@@ -1,0 +1,32 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.action-buttons {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+.ok-button{
+    background-color: rgb(81 200 81);
+    color: white;
+    margin-left: 0px !important
+}
+.cancel-button{
+    background-color: #706768;
+    color: white;
+    margin-left: 0px !important
+}
+.delete-button {
+    background-color: #ea2b31;
+    border: none;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}

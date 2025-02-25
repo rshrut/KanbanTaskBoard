@@ -1,0 +1,26 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "outDir": "./dist/out-tsc",
+    "strict": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": false,  // Set to false to allow full type checking
+    "isolatedModules": false,  // Allow TypeScript to perform full type checking
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",  // Use 'node' instead of 'bundler'
+    "importHelpers": true,
+    "target": "ES2022",
+    "module": "ES2022",
+    "noEmitOnError": true  // <-- ADD THIS TO STOP COMPILATION ON ERRORS
+  },
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "strictTemplates": true
+  }
+}

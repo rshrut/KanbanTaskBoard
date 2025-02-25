@@ -1,0 +1,8 @@
+{
+    "typescript.tsdk": "node_modules\\typescript\\lib",
+    "angular.forceStrictTemplates": false,
+    "angular.log": "off",
+    "eslint.debug": false,
+    "debug.javascript.autoAttachFilter": "disabled",
+    "debug.javascript.breakOnConditionalError": false
+}

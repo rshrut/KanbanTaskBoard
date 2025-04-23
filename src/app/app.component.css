@@ -31,7 +31,7 @@ app-task{
     left: 50%;
     transform: translate(-50%,-50%);
     font-size: 1.5em;
-    opacity: 0.4;
+    opacity: 0.6;
     margin: 0;
 }
 .cdk-drag-animating{
@@ -75,5 +75,44 @@ app-task{
     background-color: #5299e0;
     color: white !important;
     margin-left: 20px;
+}
+
+@media (max-width:768px){
+    app-task{
+        margin: 10px;
+    }
+    #todo{
+        justify-content: center;
+    }
+    #inProgress {
+        justify-content: center;
+    }
+    #doneList {
+        justify-content: center;
+    }
+    .container-wrapper{
+        margin-top:0;
+        margin: 20px 10px 0 10px;
+        justify-content: space-around;
+    }
+    .empty-label{
+        text-align: center;
+        margin: 0 5px 0 5px;
+        width: max-content;
+    }
+    .container{
+        width: 225px;
+        margin:0;
+    }
+
+    @media (max-width:480px){
+        .container-wrapper{
+            flex-direction: column;
+        }
+        .container{
+            width: 100%;
+            margin-bottom:25px;
+        }
+    }
 }
 
